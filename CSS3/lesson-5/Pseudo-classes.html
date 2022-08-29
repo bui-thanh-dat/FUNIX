@@ -2,26 +2,37 @@
 <html>
 <head>
 <style>
-p:first-child i  {
+/*p:first-child i  {
   color: blue;
-}
+} */
+li:first-child { color:aqua } li:last-child{ color:aquamarine } div:only-child { color:chartreuse }
 q:lang(no){
     quotes : "~" "~";
 }
 </style>
-</head>
-<body>
-    <p>This is some <i>strong</i> text <i>strong </i>.</p>
-    <p>This is <i>strong</i>some<i>strong </i> text.</p>
+</head> 
+<body><!--    <p>This is some <i>strong</i> text <i>strong </i>.</p>
+  <p>This is <i>strong</i>some<i>strong </i> text.</p>
 
 <div>
-  <p>This is some <i>strong </i>text<i>strong </i>.</p>
-  <p>This is <i>strong </i> some <i>strong </i> text.</p>
+<p>This is some <i>strong </i>text<i>strong </i>.</p>
+<p>This is <i>strong </i> some <i>strong </i> text.</p>
 </div>
 <p>I am <i>strong</i>Person. I am <i>strong</i>Person. </p>
 <p>I am <i>strong</i>Person. I am <i>strong</i>Person. </p>
 <p>some text <q lang="no">Aquato in a groragred</q>Some text.</p>
-<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>-->
+<ul>
+  <li>This list item will be selected </li>
+  <li>
+    <div>This is will be selected </div>
+  </li>
+  <li>
+    <div>nothing</div>
+    <div>nothing</div>
+  </li>
+  <li>this list item will be selected </li>
+</ul>
 </body>
 </html>
 
